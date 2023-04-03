@@ -1,0 +1,118 @@
+header {
+    height: 10%;
+    width: 100%;
+    border: 1px solid black;
+    background: linear-gradient(to right, rgb(192, 192, 255), rgba(255, 38, 139, 0.538));
+    text-align: center;
+}
+
+.container {
+    height: 80%;
+    width: 69%;
+    border: 1px solid black;
+    position: absolute;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+    overflow: scroll;
+}
+
+.item {
+    margin: 20px;
+    position: relative;
+    height: 300px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 18px;
+    display: inline-block;
+    text-align: center;
+}
+
+.item img {
+    height: 220px;
+    width: 220px;
+    position: relative;
+    top: -10%;
+
+}
+
+.item>h2 {
+    top: -50px;
+    text-align: center;
+    /* left: 70px; */
+    position: relative;
+}
+
+.add {
+    top: 30px;
+    left: 180px;
+    height: 40px;
+    width: 40px;
+}
+
+.add>img {
+    height: 20px;
+    width: 20px;
+    z-index: 1;
+    position: relative;
+    top: 20%;
+    left: 170px;
+    text-decoration: none;
+    bottom: unset;
+}
+
+
+
+aside {
+    height: 80%;
+    width: 337px;
+    position: absolute;
+    border: 1px solid black;
+    left: 80%;
+    display: inline-block;
+}
+
+aside h1 {
+    height: 80px;
+    width: 340px;
+    position: absolute;
+    background-color: chocolate;
+    top: 0%;
+    margin: 0%;
+
+}
+
+.panel {
+    height: 50px;
+    width: 340px;
+    top: 100px;
+    border-radius: 12px;
+    border: 1px solid green;
+    position: relative;
+    display: flex;
+    display: inline-block;
+}
+
+.panel * {
+    display: inline-block;
+}
+
+.panel>img {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    border-radius: 18px;
+}
+
+.panel h2 {
+    position: relative;
+    left: 10px;
+    bottom: 15px;
+
+}
+
+
+.del {
+    position: relative;
+    left: 60px;
+}

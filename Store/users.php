@@ -1,0 +1,23 @@
+<?php
+$users=[
+array(
+    "id"=>1,
+    "username"=>"med",
+    "password"=>"med",
+    "product"=>[]
+),
+array(
+    "id"=>2,
+    "username"=>"ali",
+    "password"=>"ali",
+    "product"=>[]
+),
+array(
+    "id"=>3,
+    "username"=>"alex",
+    "password"=>"alex",
+    "product"=>[]
+)
+];
+
+?>

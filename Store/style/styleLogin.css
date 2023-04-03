@@ -1,0 +1,36 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+    padding: 0%;
+    font-size: 25px;
+}
+
+body {
+    background: linear-gradient(to top, rgba(255, 0, 153, 0.493), rgba(195, 0, 255, 0.449));
+    display: flex;
+    justify-content: center;
+    height: 100rem;
+}
+
+h1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.don {
+    display: grid;
+    justify-content: center;
+    background-color: chocolate;
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 200px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+label {
+    color: azure;
+    width: 120px;
+    border-radius: 18px;
+}

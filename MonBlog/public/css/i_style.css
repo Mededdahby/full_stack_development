@@ -1,0 +1,59 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #eee;
+    height: 50px;
+}
+
+a {
+    margin-top: 16px;
+    margin-left: 2%;
+}
+
+.user {
+    font-size: 25px;
+    position: relative;
+    top: 8px;
+    color: crimson;
+}
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item {
+    background-color: bisque;
+    height: 30%;
+    width: 30%;
+    margin-top: 10px;
+    border: 1 solid black;
+    border-radius: 8px;
+}
+
+.item:hover {
+    background-color: rgb(243, 195, 137);
+    height: 33%;
+    width: 33%;
+    font-size: 28px;
+
+}
+
+img {
+    height: 30%;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.del {
+
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 220px;
+    left: 460px;
+}
